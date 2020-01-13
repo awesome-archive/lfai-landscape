@@ -50,6 +50,21 @@ landscape:
         name: Platform
         items:
           - item:
+            name: Angel-ML
+            homepage_url: 'https://github.com/Angel-ML/angel'
+            project: graduated
+            repo_url: 'https://github.com/Angel-ML/angel'
+            logo: angel.svg
+            twitter: null
+            crunchbase: 'https://www.crunchbase.com/organization/lf-artificial-intelligence-foundation'
+          - item:
+            name: Alink
+            homepage_url: 'https://github.com/alibaba/Alink'
+            repo_url: 'https://github.com/alibaba/Alink'
+            logo: alink.svg
+            twitter: null
+            crunchbase: 'https://www.crunchbase.com/organization/alibaba'
+          - item:
             name: Apache SystemML
             homepage_url: 'https://systemml.apache.org/'
             repo_url: 'https://github.com/apache/systemml'
@@ -232,6 +247,13 @@ landscape:
             twitter: null
             crunchbase: 'https://www.crunchbase.com/organization/tencent'
           - item:
+            name: PaddlePaddle
+            homepage_url: 'http://www.paddlepaddle.org.cn/'
+            repo_url: 'https://github.com/PaddlePaddle/Paddle'
+            logo: paddlepaddle.svg
+            twitter: null
+            crunchbase: 'https://www.crunchbase.com/organization/baidu'
+          - item:
             name: Pythia
             homepage_url: 'https://github.com/facebookresearch/pythia'
             repo_url: 'https://github.com/facebookresearch/pythia'
@@ -263,13 +285,6 @@ landscape:
             twitter: 'https://twitter.com/jolibrain'
             crunchbase: 'https://www.crunchbase.com/organization/jolibrain'
           - item:
-            name: PaddlePaddle
-            homepage_url: 'http://www.paddlepaddle.org.cn/'
-            repo_url: 'https://github.com/PaddlePaddle/Paddle'
-            logo: paddlepaddle.svg
-            twitter: null
-            crunchbase: 'https://www.crunchbase.com/organization/baidu'
-          - item:
             name: Polyaxon
             homepage_url: 'https://polyaxon.com'
             repo_url: 'https://github.com/polyaxon/polyaxon'
@@ -293,6 +308,12 @@ landscape:
             logo: bigdl.svg
             twitter: null
             crunchbase: 'https://www.crunchbase.com/organization/intel'
+          - item:
+            name: Catalyst
+            homepage_url: 'https://github.com/catalyst-team/catalyst'
+            repo_url: 'https://github.com/catalyst-team/catalyst'
+            logo: 'https://raw.githubusercontent.com/catalyst-team/catalyst-pics/master/pics/catalyst-svg-white.svg'
+            crunchbase: 'https://www.crunchbase.com/organization/catalyst-team'
           - item:
             name: Eclipse Deeplearning4j
             homepage_url: 'https://deeplearning4j.org/'
@@ -457,6 +478,13 @@ landscape:
             twitter: 'https://twitter.com/milvusio'
             crunchbase: 'https://www.crunchbase.com/organization/zilliz'
           - item:
+            name: VEARCH
+            homepage_url: 'https://vearch.github.io/'
+            repo_url: 'https://github.com/vearch/vearch'
+            logo: vearch.svg
+            twitter: null
+            crunchbase: 'https://www.crunchbase.com/organization/jd-com'
+          - item:
             name: Parquet
             homepage_url: 'https://parquet.apache.org/'
             repo_url: 'https://github.com/apache/parquet-format'
@@ -469,6 +497,28 @@ landscape:
             repo_url: 'https://github.com/pilosa/pilosa'
             logo: pilosa.svg
             crunchbase: 'https://www.crunchbase.com/organization/pilosa'
+      - subcategory:
+        name: Operations
+        items:
+          - item:
+            name: Marquez
+            homepage_url: 'https://marquezproject.github.io/marquez'
+            repo_url: 'https://github.com/MarquezProject/marquez'
+            logo: marquez.svg
+            twitter: 'https://twitter.com/MarquezProject'
+            crunchbase: 'https://www.crunchbase.com/organization/wework'
+          - item:
+            name: Amundsen
+            homepage_url: 'https://github.com/lyft/amundsen'
+            repo_url: 'https://github.com/lyft/amundsen'
+            logo: amundsen.svg
+            crunchbase: 'https://www.crunchbase.com/organization/lyft'
+          - item:
+            name: great_expectations
+            homepage_url: 'https://greatexpectations.io/'
+            repo_url: 'https://github.com/great-expectations/great_expectations'
+            logo: great-expectations.svg
+            crunchbase: 'https://www.crunchbase.com/organization/great-expectations-c89a'
       - subcategory:
         name: Pipeline Management
         items:
@@ -616,6 +666,12 @@ landscape:
             twitter: null
             crunchbase: 'https://www.crunchbase.com/organization/google'
           - item:
+            name: Grafana
+            homepage_url: 'https://grafana.com'
+            repo_url: 'https://github.com/grafana/grafana'
+            logo: grafana.svg
+            crunchbase: 'https://www.crunchbase.com/organization/raintank'
+          - item:
             name: RCloud
             homepage_url: 'https://rcloud.social/index.html'
             repo_url: 'https://github.com/att/rcloud'
@@ -639,12 +695,6 @@ landscape:
       - subcategory:
         name: Governance
         items:
-          - item:
-            name: Amundsen
-            homepage_url: 'https://github.com/lyft/amundsen'
-            repo_url: 'https://github.com/lyft/amundsen'
-            logo: amundsen.svg
-            crunchbase: 'https://www.crunchbase.com/organization/lyft'
           - item:
             name: Community Data License Agreement (CDLA)
             homepage_url: 'https://cdla.io/'
@@ -968,14 +1018,6 @@ landscape:
         name: Parameter
         items:
           - item:
-            name: Angel-ML
-            homepage_url: 'https://github.com/Angel-ML/angel'
-            project: incubating
-            repo_url: 'https://github.com/Angel-ML/angel'
-            logo: angel.svg
-            twitter: null
-            crunchbase: 'https://www.crunchbase.com/organization/lf-artificial-intelligence-foundation'
-          - item:
             name: HyperOpt
             homepage_url: 'https://hyperopt.github.io/hyperopt/'
             repo_url: 'https://github.com/hyperopt/hyperopt'
@@ -1110,6 +1152,13 @@ landscape:
             logo: volcano.svg
             twitter: null
             crunchbase: 'https://www.crunchbase.com/organization/huawei'
+          - item:
+            name: Flyte
+            homepage_url: 'https://flyte.org'
+            repo_url: 'https://github.com/lyft/flyte'
+            logo: flyte.svg
+            twitter: 'https://twitter.com/flyteorg'
+            crunchbase: 'https://www.crunchbase.com/organization/lyft'
       - subcategory:
         name: Inference
         items:
@@ -1138,6 +1187,13 @@ landscape:
       - subcategory:
         name: Tool
         items:
+          - item:
+            name: dlrm
+            homepage_url: 'https://github.com/facebookresearch/dlrm'
+            repo_url: 'https://github.com/facebookresearch/dlrm'
+            logo: dlrm.svg
+            twitter: null
+            crunchbase: 'https://www.crunchbase.com/organization/facebook'
           - item:
             name: Clipper
             homepage_url: 'http://clipper.ai/'
